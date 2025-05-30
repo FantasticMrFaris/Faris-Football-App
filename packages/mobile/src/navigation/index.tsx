@@ -74,7 +74,7 @@ export function Navigation() {
         {!session ? (
           // Auth Stack
           <>
-            <Stack.Screen name="Login" component={LoginScreen} />
+            <Stack.Screen name="Login\" component={LoginScreen} />
             <Stack.Screen name="Register" component={RegisterScreen} />
           </>
         ) : !profile ? (
