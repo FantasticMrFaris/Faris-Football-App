@@ -1,0 +1,24 @@
+{
+  "name": "kicklink",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Mobile-first platform for Sunday-league and grassroots football organisation",
+  "scripts": {
+    "dev": "pnpm --filter api dev",
+    "test": "pnpm -r test",
+    "lint": "pnpm -r lint",
+    "prepare": "husky install"
+  },
+  "keywords": ["football", "sports", "mobile", "grassroots"],
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
+    "husky": "^8.0.3",
+    "prettier": "^3.1.1",
+    "typescript": "^5.3.3"
+  }
+}
